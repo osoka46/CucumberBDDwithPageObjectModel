@@ -1,4 +1,4 @@
-package stepdefinitions;
+package stepDefinitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -12,18 +12,22 @@ public class LoginSteps {
     }
     @When("user validates the homepage title")
     public void user_validates_the_homepage_title() {
+        System.out.println("user navigates to homepage");
 
     }
-    @Then("user enters username")
-    public void user_enters_username() {
+    @Then("user enters {string} username")
+    public void user_enters_username(String username) {
+        System.out.println(username);
 
     }
-    @And("user enters password")
-    public void user_enters_password() {
+    @And("user enters {string} password")
+    public void user_enters_password(String password) {
+        System.out.println(password);
 
     }
     @And("user clicks on the signing button")
     public void user_clicks_on_the_signing_button() {
+        System.out.println("user clicking button");
 
     }
 }
