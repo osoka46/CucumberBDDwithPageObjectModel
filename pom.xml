@@ -28,6 +28,11 @@
             <artifactId>cucumber-extentsreport</artifactId>
             <version>3.1.1</version>
         </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.9.1</version>
+        </dependency>
     </dependencies>
 
     <properties>
@@ -40,7 +45,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.18.1</version>
+                <version>3.0.0-M8</version>
                 <configuration>
                     <testFailureIgnore>false</testFailureIgnore>
                     <suiteXmlFiles>
