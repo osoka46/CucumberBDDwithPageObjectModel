@@ -4,9 +4,14 @@ Feature: Acceptance testing to validate search cars page is working
   the search cars page is working fine
   Scenario: Validate search cars page
     Given user on the home page "https://www.carsguide.com.au/"
-    When user move to the menu
-    And user clicks on "search cars" link
-    And user select car brand as "BMW" from
+    When move to the menu
+    And clicks on "search cars" link
+    And select car brand as "BMW" from select car dropdown
+    And select car model as "1 SERIES" from model
+    And select location as "Australia" from location
+    Then clicks update
+    And the page title should contain "Bmw 1 Series for sale South east"
+
 
 
 
