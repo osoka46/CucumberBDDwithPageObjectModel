@@ -10,5 +10,7 @@ public class CarsGuideHomePageLocators {
     public WebElement buySellLink;
     @FindBy(how = How.LINK_TEXT,using="Search Cars")
     public WebElement searchCarsLInk;
+    @FindBy(how = How.LINK_TEXT,using = "Used")
+    public WebElement usedCarLink;
 
 }
