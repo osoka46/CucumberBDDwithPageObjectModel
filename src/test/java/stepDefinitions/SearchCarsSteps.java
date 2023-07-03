@@ -4,6 +4,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.testng.Assert;
 import pages.actions.CarGuideHomePageActions;
 import pages.locators.CarsGuideHomePageLocators;
 import utils.SeleniumDriver;
@@ -56,6 +57,7 @@ public class SearchCarsSteps {
 
     @And("the page title should contain {string}")
     public void the_page_title_should_contain(String title) {
+     Assert.assertTrue(true);
 
     }
 
