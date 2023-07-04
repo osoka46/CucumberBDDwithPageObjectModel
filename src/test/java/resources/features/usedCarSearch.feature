@@ -13,7 +13,7 @@ Feature: Acceptance testing to validate search cars page is working
     Then click findMyNextCar button
     And the page title should contain "Bmw 1 Series for sale South east"
 
-// kullanilmis araba arastirmasi icin
+
 
 
 
