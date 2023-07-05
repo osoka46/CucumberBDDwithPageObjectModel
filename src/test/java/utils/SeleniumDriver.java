@@ -36,20 +36,18 @@ public class SeleniumDriver {
     }
 
     public static void setUpDriver() {
-        if(seleniumDriver==null)
-        {
-            seleniumDriver=new SeleniumDriver();
+        if (seleniumDriver == null) {
+            seleniumDriver = new SeleniumDriver();
         }
 
     }
-    public static void tearDown()
-    {
-        if (driver!=null)
-        {
+
+    public static void tearDown() {
+        if (driver != null) {
             driver.close();
             driver.quit();
         }
-        seleniumDriver=null;
+        seleniumDriver = null;
     }
 
 
