@@ -39,7 +39,6 @@ public class SeleniumDriver {
         if (seleniumDriver == null) {
             seleniumDriver = new SeleniumDriver();
         }
-
     }
 
     public static void tearDown() {
