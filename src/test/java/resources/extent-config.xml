@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<extenreports>
-    <configuration>
-        <encoding>UTF-8</encoding>
-        <documentTitle>Extent_report</documentTitle>
-        <reportName>Cucumber_extent_report</reportName>
-        <reportHeadline>-v3.1.1</reportHeadline>
-    </configuration>
-</extenreports>
